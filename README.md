@@ -1,6 +1,7 @@
 # Object Detection 학습 과정
 
 ## 데이터 셋 구성 전에 각 이미지 파일에 대하여 바운딩 박스를 그린 후 xml 형식으로 저장.
+``` 
 |---- train
 |     |---- image
 |           |---- 1.jpg
@@ -10,6 +11,7 @@
 |           |---- 1.xml
 |           |---- 2.xml
 |           |---- ...
+``` 
 
 ## 데이터 셋 구성(VOC Type) 기준
 1. move_image_xml.py : image, annotation 파일을 각각 해당 위치로 옴김
@@ -20,7 +22,7 @@
    - 이미지 파일 이름만 기록
 4. voc_convert.py : image, annotation 파일을 각각 불러와, train.txt 파일로 만듬
    - 형식 : 1.jpg xmin, ymin, xmax, ymax, class number
-
+``` 
 |---- train
 |     |---- data.name.txt
 |     |---- image.txt
@@ -29,3 +31,4 @@
 |           |---- ...jpg
 |     |---- annotation
 |           |---- ...xml
+``` 
