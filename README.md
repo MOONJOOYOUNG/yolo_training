@@ -36,3 +36,8 @@
 |     |---- annotation
 |           |---- ...xml
 ``` 
+
+## 학습 config 설정
+- ./core/config.py 파일 수정.
+- __C.YOLO.CLASSES, __C.TRAIN.ANNOT_PATH , __C.TEST.ANNOT_PATH , __C.TEST.DECTECTED_IMAGE_PATH 경로 설정 
+- input_size, batch_size 조정
