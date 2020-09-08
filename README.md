@@ -23,6 +23,7 @@
 4. voc_convert.py : image, annotation 파일을 각각 불러와, train.txt 파일로 만듬
    - 형식 : 1.jpg xmin, ymin, xmax, ymax, class number
    -     : 2.jpg xmin, ymin, xmax, ymax, class number
+   
 ``` 
 # Dataset 위의 과정 시 다음과 같은 파일이 만들어짐
 |---- train
