@@ -21,8 +21,8 @@
 3. make_image_txt.py : image 파일을 불러와 image.txt 파일을 만듬
    - 이미지 파일 이름만 기록
 4. voc_convert.py : image, annotation 파일을 각각 불러와, train.txt 파일로 만듬
-   - 형식 : 1.jpg xmin, ymin, xmax, ymax, class number
-   -     : 2.jpg xmin, ymin, xmax, ymax, class number
+   -    : 1.jpg xmin, ymin, xmax, ymax, class number
+   -    : 2.jpg xmin, ymin, xmax, ymax, class number
    
 ``` 
 # Dataset 위의 과정 시 다음과 같은 파일이 만들어짐
